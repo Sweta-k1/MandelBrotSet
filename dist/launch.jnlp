@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>PoorMansParallelism</title>
+        <vendor>kolli</vendor>
+        <homepage href=""/>
+        <description>PoorMansParallelism</description>
+        <description kind="short">PoorMansParallelism</description>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se version="1.8+"/>
+        <jar href="PoorMansParallelism.jar" main="true"/>
+    </resources>
+    <application-desc main-class="MandelbrotClient.run.ClientMain">
+    </application-desc>
+</jnlp>
